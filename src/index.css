@@ -1,0 +1,11 @@
+@import "tailwindcss";
+html, body, #root { height: 100%; margin: 0; }
+body { font-family: 'Sora', system-ui, sans-serif; background: #eef2f9; color: #0f1f3d; }
+.mono { font-family: 'JetBrains Mono', monospace; }
+@layer components {
+  .panel { @apply rounded-2xl border border-slate-200/80 bg-white/85 p-4 shadow-sm backdrop-blur; }
+  .btn { @apply inline-flex items-center justify-center gap-1.5 rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-700 shadow-sm transition hover:border-blue-400 hover:text-blue-600 active:scale-95 disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:border-slate-200 disabled:hover:text-slate-700; }
+  .h { @apply mb-3 flex items-center gap-2 text-sm font-semibold text-slate-900; }
+}
+input[type=range] { accent-color: #1d5bff; width: 100%; cursor: pointer; }
+input[type=range]:disabled { opacity: .4; cursor: not-allowed; }
