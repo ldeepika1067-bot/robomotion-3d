@@ -29,7 +29,7 @@ RoboMotion 3D is a web-based robotic arm simulation and control platform that al
 
 **1. Clone the repository**
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_LINK
+git clone https://github.com/ldeepika1067-bot/robomotion-3d
 ```
 
 **2. Navigate to the project**
